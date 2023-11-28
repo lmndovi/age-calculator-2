@@ -3,7 +3,7 @@ import React from "react";
 
 const PrimaryNav = () => {
   return (
-    <nav className="px-8 py-3 flex justify-between items-center">
+    <nav className="px-8 py-3 flex justify-between items-center  text-sm">
       <div className="flex w-1/2 items-center justify-between">
         <Image
           src="/betsolverslogo.png"
@@ -12,7 +12,7 @@ const PrimaryNav = () => {
           width={140}
         />
 
-        <ul className="flex space-x-10">
+        <ul className="flex space-x-10 ">
           <li>About us</li>
           <li>Contact us</li>
           <li>Category 3</li>
