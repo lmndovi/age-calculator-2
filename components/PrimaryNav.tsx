@@ -4,7 +4,7 @@ import React from "react";
 const PrimaryNav = () => {
   return (
     <nav className="px-8 py-3 flex justify-between items-center  text-sm">
-      <div className="flex w-1/2 items-center justify-between">
+      <div className="flex w-1/2 items-center space-x-12">
         <Image
           src="/betsolverslogo.png"
           alt="BetSolvers"
