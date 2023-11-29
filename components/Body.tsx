@@ -5,12 +5,12 @@ import Info from "./Info";
 
 const Body = () => {
   return (
-    <div className="grid grid-cols-3  gap-16 py-5 px-5 mx-auto">
+    <div className="grid grid-cols-4  gap-16 py-5 px-5 mx-auto">
       <section className="flex-col space-y-4 h-[600px]">
         <div className="rounded-lg bg-[rgba(255,255,255,0.1)] h-48 w-72"></div>
         <div className="rounded-lg bg-[rgba(255,255,255,0.1)] h-96 w-72"></div>
       </section>
-      <section>
+      <section className="col-span-2 w-10/12 flex-col space-y-5 px-8">
         {/* Seleccion de equipos */}
         <TeamSelector />
         {/* Win rate */}
